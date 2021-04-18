@@ -42,16 +42,16 @@
                     <p class="hint">* - required field</p>
                     <label for="name">Your Name *</label>  
                     <input type="text" id="name" name="user_name">
-                    <label for="email">Your Email *</label>
-                    <input type="mail" id="email" name="user_email">
-                    <p class=“hint”> Receipt will be sent to this address</p>
+                    <label for="email" class="error-text">Your Email *</label>
+                    <input type="mail" id="email" name="user_email" class="error-input">
+                    <p class="hint error-text">Email address must contain a single @.</p>
                     <label for="address1">Street Address *</label>
                     <input type="text" id="address1" name="user-address1">
                     <label for="address2">Apartment/Office Number *</label>
                     <input type="text" id="address2" name="user-address2">
-                    <label for="zip">Zip Code *</label>
-                    <input type="text" id="zip" name="user-zip">
-                    <p class="hint">City and state will be looked up from Zip Code.</p>
+                    <label for="zip" class="error-text">Zip Code *</label>
+                    <input type="text" id="zip" name="user-zip" class="error-input">
+                    <p class="hint error-text">Please eneter a Zip Code.</p>
                     <label for="phone">Phone</label>
                     <input type="tel" id="phone" name="user-phone">
                     <p class="hint">No phone? Included alternate contact below.</p>
